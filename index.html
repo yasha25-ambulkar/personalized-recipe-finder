@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Recipe Finder</title>
+    <link rel="stylesheet" href="wwdd.css">
+</head>
+<body>
+
+    <header>
+        <h1>Personalized Recipe Finder</h1>
+    </header>
+
+    <div class="container">
+        <div class="input-container">
+            <input type="text" id="ingredient-input" placeholder="Enter ingredients (e.g., chicken, tomato, cheese)">
+            <button onclick="getRecipes()">Find Recipes</button>
+        </div>
+        <div id="recipe-container" class="recipe-container">
+            <!-- Recipe cards will be displayed here -->
+        </div>
+    </div>
+
+    <footer>
+        <p>Powered by Spoonacular API</p>
+    </footer>
+
+    <script src="wwdd.js"></script>
+</body>
+</html>

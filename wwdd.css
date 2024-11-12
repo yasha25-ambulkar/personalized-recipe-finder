@@ -1,0 +1,107 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    text-align: center;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+/* Main container */
+.container {
+    margin: 20px;
+}
+
+/* Ingredient input and button */
+.input-container {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Recipe container */
+.recipe-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.recipe-card {
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.recipe-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.recipe-card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.recipe-card a {
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.recipe-card a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    font-size: 14px;
+}
